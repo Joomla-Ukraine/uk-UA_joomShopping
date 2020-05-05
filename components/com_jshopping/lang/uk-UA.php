@@ -13,7 +13,7 @@ define('_JSHOP_DETAIL', 'Детальніше');
 define('_JSHOP_QUANTITY', 'Кількість');
 define('_JSHOP_ADD_TO_CART', 'У кошик');
 define('_JSHOP_ADD_TO_WISHLIST', 'Сподобалось');
-define('_JSHOP_WISHLIST_IS_EMPTY', 'Перелік товарів які Вам сподобались, нажаль поки порожній. <br />Додавайте товари які сподобались до списку.');
+define('_JSHOP_WISHLIST_IS_EMPTY', 'Перелік товарів які вам сподобались, на жаль поки порожній.<br>Додавайте товари які сподобались до списку.');
 define('_JSHOP_ORDER_BY', 'Сортування');
 define('_JSHOP_DISPLAY_NUMBER', 'Кількість');
 define('_JSHOP_TABS_MAIN', 'Головна');
@@ -35,7 +35,7 @@ define('_JSHOP_ITEM', 'Найменування');
 define('_JSHOP_NUMBER', 'Кількість');
 define('_JSHOP_PROD_NUMBER', 'Арт. Нр.');
 define('_JSHOP_SINGLEPRICE', 'Ціна за одиницю');
-define('_JSHOP_SINGLEPRICE_NETTO', 'Нето');
+define('_JSHOP_SINGLEPRICE_NETTO', 'Нетто');
 define('_JSHOP_IMAGE', 'Зображення');
 define('_JSHOP_TAX', 'ПДВ');
 define('_JSHOP_PRICE_TOTAL', 'Сума');
@@ -168,7 +168,7 @@ define('_JSHOP_EXT_FIELD_3', 'Додаткове поле 3');
 define('_JSHOP_CLIENT_TYPE', 'Тип клієнта');
 define('_JSHOP_PRIVAT_CLIENT', 'Фізична особа');
 define('_JSHOP_FIRMA_CLIENT', 'Компанія');
-define('_JSHOP_CLIENT_ID', 'ID клиента');
+define('_JSHOP_CLIENT_ID', 'ID клієнта');
 
 define('_JSHOP_SORT_ALPH', 'Назва');
 define('_JSHOP_SORT_PRICE', 'Ціна');
@@ -197,7 +197,7 @@ define('_JSHOP_BIC_BIC', 'BIC');
 define('_JSHOP_IBAN', 'IBAN');
 define('_JSHOP_ERROR_PAYMENT', 'Помилка платежу');
 define('_JSHOP_ORDER_FINISH', 'Підтвердити замовлення');
-define('_JSHOP_ERROR_PAYMENT_DATA', 'Будь ласка, введіть корректні платіжні дані');
+define('_JSHOP_ERROR_PAYMENT_DATA', 'Будь ласка, введіть коректні платіжні дані');
 
 define("_JSHOP_HI", "Вітаємо");
 define('_JSHOP_ORDER_STATUS_CHANGE_SUBJECT','Статус замовлення №. %s змінено.');
@@ -243,7 +243,7 @@ define('_JSHOP_NAME_PRODUCT', 'Назва товару');
 define('_JSHOP_EAN_PRODUCT', 'Код товару');
 define('_JSHOP_TOTAL', 'Сума');
 define('_JSHOP_SUBTOTAL', 'Загалом');
-define('_JSHOP_SUBTOTAL_NETTO', 'Сума нето');
+define('_JSHOP_SUBTOTAL_NETTO', 'Сума нетто');
 define('_JSHOP_VAT', 'Податок');
 define('_JSHOP_ENDTOTAL', 'Усього до сплати');
 define('_JSHOP_ENDTOTAL_INKL_TAX', 'Усього до сплати');
@@ -268,8 +268,8 @@ define('_JSHOP_SHIPPING_INFORMATION', 'Інформація про достав�
 define('_JSHOP_CONTACT_PHONE','Тел.');
 define('_JSHOP_CONTACT_FAX','Факс');
 
-// Аккаунт
-define('_JSHOP_SAVE', 'Зберігти');
+// Акаунт
+define('_JSHOP_SAVE', 'Зберегти');
 define('_JSHOP_MY_ACCOUNT', 'Мій профіль');
 define('_JSHOP_ACCOUNT_UPDATE', 'Інформацію оновлено');
 define('_JSHOP_NEW_PASSWORD', 'Новий пароль');

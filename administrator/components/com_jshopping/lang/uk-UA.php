@@ -246,7 +246,7 @@ define('_JSHOP_STATIC_TEXT','Cтатичний текст');
 define('_JSHOP_CAT_PROD','Товар');
 define('_JSHOP_CHECKOUT','Замовлення');
 define('_JSHOP_SHOP_FUNCTION','Функції магазину');
-define('_JSHOP_MAIN_LANGUAGE','Мова адмінпанелі');
+define('_JSHOP_MAIN_LANGUAGE','Мова адміністративної панелі');
 define('_JSHOP_DEFAULT_LANGUAGE','Мова за замовчуванням');
 define('_JSHOP_INFO_DEFAULT_LANGUAGE','При встановленні нової мови буде скопійована інформація з "Мова за замовчуванням"');
 define('_JSHOP_DEFAULT_ORDER_STATUS','Статус замовлення за замовчуванням');
@@ -298,16 +298,16 @@ define('_JSHOP_USER_AS_CATALOG','Використовувати як катал�
 define('_JSHOP_SHOW_TAX','Показати ПДВ');
 define('_JSHOP_SHOW_TAX_IN_CART','Показати ПДВ для товарів в кошику');
 define('_JSHOP_SHOW_PLUS_SHIPPING','Показати "плюс доставка"');
-define('_JSHOP_SHIPPING_DESCR_1','Опис доставки<br/><span style="font-size:10px">Для опції товару: Показати "плюс доставка"</span>');
+define('_JSHOP_SHIPPING_DESCR_1','Опис доставки<br/><span style="font-size:10px">Для опції товару: Показати «плюс доставка»</span>');
 define('_JSHOP_HIDE_BUY_PRODUCT_NOT_AVAIBLE_STOCK','Приховати кнопку `придбати`, якщо товару немає на складі');
 define('_JSHOP_ABILITY_TO_SORT_PRODUCTS','Можливість сортування товарів');
 define('_JSHOP_SHOW_SELECTBOX_COUNT_PRODUCTS_TO_PAGE','Вибір кількості товарів на сторінці');
-define('_JSHOP_ORDER_FINISH_DESCR','Страница "Замовлення завершено"');
+define('_JSHOP_ORDER_FINISH_DESCR','Сторінка «Замовлення завершено»');
 define('_JSHOP_ORDER_SEND_PDF_CLIENT','Надсилати PDF-рахунок для замовника');
 define('_JSHOP_ORDER_SEND_PDF_ADMIN','Надсилати PDF-рахунок для адміна');
-define('_JSHOP_INC_PERCENT_TAX', 'в т.ч. %s %% ПДВ');
-define('_JSHOP_SHOW_DELIVERY_TIME', 'Показати "Термін надходження"');
-define('_JSHOP_SHOW_DEMO_TYPE_AS_MEDIA', 'Показати демо файл як відео');
+define('_JSHOP_INC_PERCENT_TAX', 'у т.ч. %s %% ПДВ');
+define('_JSHOP_SHOW_DELIVERY_TIME', 'Показати «Термін надходження»');
+define('_JSHOP_SHOW_DEMO_TYPE_AS_MEDIA', 'Показати демонстраційний файл як відео');
 define('_JSHOP_SHOW_MANUFACTURER_LOGO', 'Показати лого виробника');
 define('_JSHOP_SHOW_WEIGHT_PRODUCT', 'Показати вагу товару');
 define('_JSHOP_ERROR_MAX_COUNT_ORDER_ONE_PRODUCT', 'Maксимальна кількість одиниць товару в замовленні');
@@ -366,7 +366,7 @@ define('_JSHOP_PRODUCT_ATTRIBUT_ADD_PRICE_DISPLAY', 'Показати додат
 define('_JSHOP_USE_SSL', 'Використовувати SSL');
 define('_JSHOP_SHOW_PRICE_DESCRIPTION', 'Показувати опис ціни');
 define('_JSHOP_SHOW_BUTTON_PRINT', 'Показати кнопку друку');
-define('_JSHOP_IMAGE_RESIZE_TYPE', 'Змнити розмір');
+define('_JSHOP_IMAGE_RESIZE_TYPE', 'Змінити розмір');
 define('_JSHOP_CUT', 'Різати');
 define('_JSHOP_FILL', 'Заповнити');
 define('_JSHOP_STRETCH', 'Розтягувати');
@@ -411,7 +411,7 @@ define('_JSHOP_SHOW_DESCR_IN_EMAIL','Показувати опис в замов
 define('_JSHOP_TESTMODE','Тестовий режим');
 define('_JSHOP_TRANSACTION_END','Статус замовлення для успішних транзакцій');
 define('_JSHOP_TRANSACTION_FAILED','Статус замовлення для неуспішних транзакцій');
-define('_JSHOP_TRANSACTION_PENDING','Статус замовлення для незакінченних транзакцій');
+define('_JSHOP_TRANSACTION_PENDING','Статус замовлення для незавершених транзакцій');
 
 // Paypal
 define('_JSHOP_PAYPAL_TESTMODE_DESCRIPTION','Для проведення оплати в тестову режимі');
