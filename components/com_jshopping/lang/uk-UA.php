@@ -22,7 +22,7 @@ define('_JSHOP_PRODUCT', 'Товар');
 define('_JSHOP_PRICE', 'Ціна');
 define('_JSHOP_ALL', 'Усе');
 define('_JSHOP_ADDED_TO_CART', 'Товар додано до кошику.');
-define('_JSHOP_ADDED_TO_WISHLIST', 'Продукт відкладено.');
+define('_JSHOP_ADDED_TO_WISHLIST', 'Товар відкладено.');
 define('_JSHOP_ERROR_ADDED_TO_CART', 'Помилка додавання до кошику');
 
 define('_JSHOP_PRODUCT_COUNT', 'Товар(и)');
@@ -33,7 +33,7 @@ define('_JSHOP_WISHLIST', 'Перелік побажань');
 define('_JSHOP_REMOVE', 'Видалити');
 define('_JSHOP_ITEM', 'Найменування');
 define('_JSHOP_NUMBER', 'Кількість');
-define('_JSHOP_PROD_NUMBER', 'Арт. Нр.');
+define('_JSHOP_PROD_NUMBER', 'Артикул');
 define('_JSHOP_SINGLEPRICE', 'Ціна за одиницю');
 define('_JSHOP_SINGLEPRICE_NETTO', 'Нетто');
 define('_JSHOP_IMAGE', 'Зображення');
@@ -92,7 +92,7 @@ define('_JSHOP_REGWARN_PHONE', 'Будь ласка, зазначте номер
 define('_JSHOP_REGWARN_NAME_DELIVERY','Будь ласка, зазначте ім`я отримувача');
 define('_JSHOP_REGWARN_LNAME_DELIVERY','Будь ласка, зазначте прізвище отримувача');
 define('_JSHOP_REGWARN_MAIL_DELIVERY','Будь ласка, зазначте E-mail отримувача');
-define('_JSHOP_REGWARN_HOME_DELIVERY', 'Будь ласка, зазначте дом отримувача');
+define('_JSHOP_REGWARN_HOME_DELIVERY', 'Будь ласка, зазначте будинок отримувача');
 define('_JSHOP_REGWARN_APARTMENT_DELIVERY', 'Будь ласка, зазначте квартиру отримувача');
 define('_JSHOP_REGWARN_STREET_DELIVERY', 'Будь ласка, зазначте вулицю отримувача');
 define('_JSHOP_REGWARN_ZIP_DELIVERY', 'Будь ласка, зазначте поштовий індекс отримувача');
@@ -214,7 +214,7 @@ define('_JSHOP_STEP_ORDER_4', 'Спосіб доставки');
 define('_JSHOP_STEP_ORDER_5', 'Підтвердити замовлення');
 
 // Кінцевий етап замовлення
-define('_JSHOP_ADD_INFO', 'Якщо є потреба зазначте додаткову інформацію для нас:');
+define('_JSHOP_ADD_INFO', 'Якщо є потреба, зазначте додаткову інформацію для нас:');
 define('_JSHOP_FINISH_DELIVERY_ADRESS', 'Адреса доставки');
 define('_JSHOP_FINISH_SHIPPING_METHOD', 'Спосіб доставки');
 define('_JSHOP_FINISH_PAYMENT_METHOD', 'Спосіб оплати');
@@ -243,10 +243,10 @@ define('_JSHOP_NAME_PRODUCT', 'Назва товару');
 define('_JSHOP_EAN_PRODUCT', 'Код товару');
 define('_JSHOP_TOTAL', 'Сума');
 define('_JSHOP_SUBTOTAL', 'Загалом');
-define('_JSHOP_SUBTOTAL_NETTO', 'Сума нетто');
+define('_JSHOP_SUBTOTAL_NETTO', 'Сума нето');
 define('_JSHOP_VAT', 'Податок');
 define('_JSHOP_ENDTOTAL', 'Усього до сплати');
-define('_JSHOP_ENDTOTAL_INKL_TAX', 'Усього до сплати');
+define('_JSHOP_ENDTOTAL_INKL_TAX', 'Усього до сплати з ПДВ');
 define('_JSHOP_BENEF_BANK', 'Банк отримувача');
 define('_JSHOP_BENEF_BIC', 'Кодовий номер банку');
 define('_JSHOP_BENEF_CONTO', 'Номер рахунку');
@@ -294,8 +294,8 @@ define('_JSHOP_SEARCH_DATE_FROM', 'Дата від');
 define('_JSHOP_SEARCH_DATE_TO', 'Дата до');
 
 // Відгуки
-define('_JSHOP_COMMENT', 'Коментар');
-define('_JSHOP_NEW_COMMENT', 'Новий коментар');
+define('_JSHOP_COMMENT', 'Відгук');
+define('_JSHOP_NEW_COMMENT', 'Новий відгук');
 define('_JSHOP_REVIEWS', 'Відгук');
 define('_JSHOP_REVIEW_NOT_LOGGED', 'Зареєструйтесь, щоб створити відгук.');
 define('_JSHOP_ADD_REVIEW_PRODUCT', 'Залишити відгук');
@@ -346,7 +346,7 @@ define('_JSHOP_MR', 'Чол.');
 define('_JSHOP_MS', 'Жін.');
 define('_JSHOP_FIRMA', 'Фірма');
 define('_JSHOP_ENTER_CORRECT_INFO_REVIEW','Введіть коректні дані');
-define('_JSHOP_YOUR_REVIEW_SAVE','Ваш відгук збережено та буде показаний після підтвердження адміністратором');
+define('_JSHOP_YOUR_REVIEW_SAVE','Ваш відгук збережено та буде опублікований після підтвердження адміністратором');
 define('_JSHOP_YOUR_REVIEW_SAVE_DISPLAY','Ваш відгук збережений');
 define('_JSHOP_ERROR_PAYMENT_FILE_NOT_EXIST','Помилка в системі розрахунку "%s" , файлу "%s" не існує');
 define('_JSHOP_GO_TO_CART','Перейти до кошика');
@@ -364,8 +364,8 @@ define('_JSHOP_HERE', 'тут');
 define('_JSHOP_PRICE_FOR_QTY', 'Ціни');
 define('_JSHOP_PER_PIECE', 'за одиницю');
 define('_JSHOP_SELECT_PRODUCT_OPTIONS', 'Будь ласка, оберіть параметри');
-define('_JSHOP_ERROR_EXIST_QTY_PRODUCT', 'Продукт неможливо замовити в даній кількості<br/>Максимальна кількість до замовлення %s.');
-define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_IN_CART', 'Продукт неможливо замовити в даній кількості<br/>Кошик вже містить %s найменувань товарів.<br/>Максимальна кількість: %s.');
+define('_JSHOP_ERROR_EXIST_QTY_PRODUCT', 'Продукт неможливо замовити в даній кількості.<br/>Максимальна кількість до замовлення %s.');
+define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_IN_CART', 'Продукт неможливо замовити в даній кількості.<br/>Кошик вже містить %s найменувань товарів.<br/>Максимальна кількість: %s.');
 define('_JSHOP_ERROR_EXIST_QTY_PRODUCT_BASKET', 'Для продукту "%s" максимальна кількість до замовлення %s.');
 define('_JSHOP_BUY', 'Придбати');
 define('_JSHOP_PRODUCT_NOT_AVAILABLE', 'Немає в наявності');
@@ -377,7 +377,7 @@ define('_JSHOP_PLUS_SHIPPING', 'плюс <a href="%s" target="_blank">доста
 define('_JSHOP_SHIPPING', 'Доставка');
 define('_JSHOP_DELIVERY_TIME', 'Термін доставки');
 define('_JSHOP_IDENTIFICATION_NUMBER', 'ІПН');
-define('_JSHOP_TAX_NUMBER', 'ПДВ нр.');
+define('_JSHOP_TAX_NUMBER', 'ПДВ ном.');
 define('_JSHOP_READ_MORE', 'Детальніше');
 define('_JSHOP_MANUFACTURER_INFO', 'Про виробника');
 define('_JSHOP_MY_ORDERS', 'Мої Замовлення');
@@ -452,5 +452,5 @@ define('_JSHOP_NO_RETURN_DESCRIPTION','Я згоден - товар поверн
 define('_JSHOP_NO_PRODUCTS_AFTER_FILTER','Немає таких товарів');
 define('_JSHOP_ERROR_QUANTITY','Неправильна кількість');
 define('_JSHOP_CLEAR_CART','Очистити кошик');
-define('_JSHOP_MANUFACTURER_CODE', 'Артикул');
+define('_JSHOP_MANUFACTURER_CODE', 'Код виробника');
 ?>
