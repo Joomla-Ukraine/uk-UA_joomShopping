@@ -1,10 +1,10 @@
 <?php
 /**
-* @version      4.18.3 17.05.2019
-* @author       Nevigen.com
+* @version      4.18.4 05.05.2020
+* @author       Joomla Ukraine
 * @package      JooomShopping
 * @language     Ukrainian
-* @copyright    Copyright (C) 2019 nevigen.com. All rights reserved.
+* @copyright    Copyright (C) 2019. All rights reserved.
 * @license      GNU/GPL
 */
 defined('_JEXEC') or die('Restricted access');
@@ -243,7 +243,7 @@ define('_JSHOP_NAME_PRODUCT', 'Назва товару');
 define('_JSHOP_EAN_PRODUCT', 'Код товару');
 define('_JSHOP_TOTAL', 'Сума');
 define('_JSHOP_SUBTOTAL', 'Загалом');
-define('_JSHOP_SUBTOTAL_NETTO', 'Сума нето');
+define('_JSHOP_SUBTOTAL_NETTO', 'Сума без ПДВ');
 define('_JSHOP_VAT', 'Податок');
 define('_JSHOP_ENDTOTAL', 'Усього до сплати');
 define('_JSHOP_ENDTOTAL_INKL_TAX', 'Усього до сплати з ПДВ');
@@ -357,7 +357,7 @@ define("_JSHOP_OLD_PRICE","Стара ціна");
 define('_JSHOP_DETAILS','Подробиці');
 define('_JSHOP_RATING','Рейтинг');
 define('_JSHOP_FOR_USE_COUPON_PLEASE_LOGIN','Для використання купону, будь ласка увійдіть у свій акаунт');
-define('_JSHOP_EAN', 'Код товару');
+define('_JSHOP_EAN', 'Артикул');
 define('_JSHOP_PAYMENT_NUMBER', 'Номер замовлення %s');
 define('_JSHOP_ORDER_WITHOUT_REGISTER_CLICK', 'Щоб оформити <b>замовлення без реєстрації</b>, натисніть');
 define('_JSHOP_HERE', 'тут');
