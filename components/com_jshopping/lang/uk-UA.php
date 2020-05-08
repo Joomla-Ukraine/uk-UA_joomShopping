@@ -1,8 +1,8 @@
 <?php
 /**
 * @version      4.18.4 05.05.2020
-* @author       Joomla Ukraine
-* @package      JooomShopping
+* @author       Community Joomla! Ukraine
+* @package      JoomShopping
 * @language     Ukrainian
 * @copyright    Copyright (C) 2019. All rights reserved.
 * @license      GNU/GPL
