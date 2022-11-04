@@ -9,6 +9,6 @@
 
 Сайт: https://joomla-ua.org/
 
-Форум: https://joomla-ua.org/forum/
+Форум: https://joomla-ua.org/community/
 
 GitHub https://github.com/Joomla-Ukraine/
