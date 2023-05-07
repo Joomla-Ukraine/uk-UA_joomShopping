@@ -1,14 +1,16 @@
-# Українська локалізація JoomShopping
+# Українська локалізація JoomShopping 5
 Українська мова для компонента **JoomShopping**, інтернет-магазин на **Joomla**.
 Оновлення мовних файлів автоматизовано. 
-Акутальність за версіями основного компоненту.
+Актуальність за версіями основного компоненту.
 Зауваження та пропозиції можна надати використовуючи будь-який канал комунікацій української спільноти (*наведено нижче*)
 
 # Українська спільнота
-Чат української спільноти в Telegram: https://t.me/joomla_ua
+Чат української спільноти в Telegram: https://t.me/joomlaua
 
 Сайт: https://joomla-ua.org/
 
-Форум: https://joomla-ua.org/community/
+Форум: https://community.joomla-ua.org/
 
-GitHub https://github.com/Joomla-Ukraine/
+Обговорення JoomShopping на форумі: https://community.joomla-ua.org/t/joomshopping
+
+GitHub: https://github.com/Joomla-Ukraine/
