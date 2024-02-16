@@ -1,9 +1,9 @@
 update `#__jshopping_countries` set `name_uk-UA` = 'Україна', `name_ru-RU` = 'Украина' where `country_id` = '220';
 update `#__jshopping_countries` set `name_uk-UA` = 'Російська Федерація', `name_ru-RU` = 'Российская Федерация' where `country_id` = '176';
 
-update `#__jshopping_unit` set `name_uk-UA` = 'Кг.', `name_ru-RU` = 'Кг.' where `id` = '1';
-update `#__jshopping_unit` set `name_uk-UA` = 'Літри', `name_ru-RU` = 'Литры' where `id` = '2';
-update `#__jshopping_unit` set `name_uk-UA` = 'Шт.', `name_ru-RU` = 'Шт.' where `id` = '3';
+update `#__jshopping_unit` set `name_uk-UA` = 'кг', `name_ru-RU` = 'кг' where `id` = '1';
+update `#__jshopping_unit` set `name_uk-UA` = 'л', `name_ru-RU` = 'л' where `id` = '2';
+update `#__jshopping_unit` set `name_uk-UA` = 'шт.', `name_ru-RU` = 'Шт.' where `id` = '3';
 
 INSERT INTO `#__jshopping_currencies` ( `currency_id` , `currency_name` , `currency_code`, `currency_code_iso`, `currency_code_num`, `currency_ordering` , `currency_publish` , `currency_value` ) VALUES ( NULL , 'Гривня', 'грн.', 'UAH', '980', '3', '1', '1.00');
 INSERT INTO `#__jshopping_currencies` ( `currency_id` , `currency_name` , `currency_code`, `currency_code_iso`, `currency_code_num`, `currency_ordering` , `currency_publish` , `currency_value` ) VALUES ( NULL , 'Рубль', 'руб', 'RUB', '643', '4', '1', '1.00');
