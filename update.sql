@@ -5,7 +5,7 @@ update `#__jshopping_unit` set `name_uk-UA` = 'кг', `name_ru-RU` = 'кг' wher
 update `#__jshopping_unit` set `name_uk-UA` = 'л', `name_ru-RU` = 'л' where `id` = '2';
 update `#__jshopping_unit` set `name_uk-UA` = 'шт.', `name_ru-RU` = 'Шт.' where `id` = '3';
 
-INSERT INTO `#__jshopping_currencies` ( `currency_id` , `currency_name` , `currency_code`, `currency_code_iso`, `currency_code_num`, `currency_ordering` , `currency_publish` , `currency_value` ) VALUES ( NULL , 'Гривня', 'грн.', 'UAH', '980', '3', '1', '1.00');
+INSERT INTO `#__jshopping_currencies` ( `currency_id` , `currency_name` , `currency_code`, `currency_code_iso`, `currency_code_num`, `currency_ordering` , `currency_publish` , `currency_value` ) VALUES ( NULL , 'Гривня', 'грн', 'UAH', '980', '3', '1', '1.00');
 INSERT INTO `#__jshopping_currencies` ( `currency_id` , `currency_name` , `currency_code`, `currency_code_iso`, `currency_code_num`, `currency_ordering` , `currency_publish` , `currency_value` ) VALUES ( NULL , 'Рубль', 'руб', 'RUB', '643', '4', '1', '1.00');
 
 update `#__jshopping_order_status` set `name_uk-UA` = 'Очікуючий', `name_ru-RU` = 'Ожидающий' where `status_id` = '1';
